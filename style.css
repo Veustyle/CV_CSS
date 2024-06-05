@@ -1,0 +1,26 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    position: relative;
+    height: 1107px;
+    width: 774px;
+    border: 15px solid white;
+    display: flex;
+    justify-content: start;
+    font-family: Montserrat;
+}
+.bg-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 180px;
+    background-color: #111418;
+    z-index: -1;
+}

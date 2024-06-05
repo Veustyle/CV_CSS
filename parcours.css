@@ -1,0 +1,125 @@
+.parcours {
+    flex-grow: 1;
+    letter-spacing: .5px;
+}
+.parcours-title {
+    margin: 40px 0 5px 0;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+}
+.parcours-title2, .parcours-p {
+    color: white;
+    opacity: .7;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 300;
+}
+hr {
+    opacity: .7;
+    margin: 15px 100px;
+}
+
+.parcours-body {
+    margin-top: 50px;
+    display: flex;
+}
+.parcours-body .timeline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.parcours-body .trait {
+    height: 102px;
+    width: 2px;
+    background-color: black;
+}
+.parcours-body .trait2 {
+    height: 32px;
+    width: 2px;
+    background-color: black;
+}
+.parcours-body .trait3 {
+    height: 284px;
+    width: 2px;
+    background-color: black;
+}
+.parcours-body .trait4 {
+    height: 104px;
+    width: 2px;
+    background-color: black;
+}
+.parcours-body .trait5 {
+    height: 103px;
+    width: 2px;
+    background-color: black;
+}
+.parcours-body .trait6 {
+    height: 100px;
+    width: 2px;
+    background-color: black;
+}
+.parcours-body .trait7 {
+    position: relative;
+    height: 87px;
+    width: 2px;
+    background-color: black;
+}
+.trait7:before {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    padding: 5px;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    transform: translateX(-5px) rotate(-45deg) ;
+}
+.parcours-body .boule {
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 50%;
+}
+.parcours-body .boule-filled {
+    padding: 4px;
+    background-color: black;
+    border-radius: 50%;
+}
+.parcours-body .content {
+    margin-left: 20px;
+}
+.parcours-body .content h1 {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    border-bottom: 2px solid black;
+    margin-top: 20px;
+}
+.parcours-body .content h2 {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.parcours-body .content .first {
+    font-weight: 500;
+    font-size: 16px;
+    margin-left: 20px;
+}
+.parcours-body .content .second {
+    font-weight: 400;
+    font-size: 14px;
+    margin-left: 20px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.parcours-body .content p {
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 500;
+}
+.parcours-body .first li {
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 7px;
+}
