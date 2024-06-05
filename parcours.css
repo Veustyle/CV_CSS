@@ -30,27 +30,27 @@ hr {
     align-items: center;
 }
 .parcours-body .trait {
-    height: 102px;
+    height: 110px;
     width: 2px;
     background-color: black;
 }
 .parcours-body .trait2 {
-    height: 32px;
+    height: 28px;
     width: 2px;
     background-color: black;
 }
 .parcours-body .trait3 {
-    height: 284px;
+    height: 83px;
     width: 2px;
     background-color: black;
 }
 .parcours-body .trait4 {
-    height: 104px;
+    height: 107px;
     width: 2px;
     background-color: black;
 }
 .parcours-body .trait5 {
-    height: 103px;
+    height: 200px;
     width: 2px;
     background-color: black;
 }
@@ -61,18 +61,24 @@ hr {
 }
 .parcours-body .trait7 {
     position: relative;
-    height: 87px;
+    height: 93px;
     width: 2px;
     background-color: black;
 }
-.trait7:before {
+.parcours-body .trait8 {
+    position: relative;
+    height: 97px;
+    width: 2px;
+    background-color: black;
+}
+.trait:before {
     position: absolute;
     content: "";
-    bottom: 0;
+    top: 170px;
     padding: 5px;
     border-bottom: 2px solid black;
     border-left: 2px solid black;
-    transform: translateX(-5px) rotate(-45deg) ;
+    transform: translateX(-5px) rotate(135deg) ;
 }
 .parcours-body .boule {
     border: 2px solid black;
