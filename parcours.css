@@ -11,7 +11,7 @@
 .parcours-title2, .parcours-p {
     color: white;
     opacity: .7;
-    font-size: 18px;
+    font-size: 14px;
     text-align: center;
     font-weight: 300;
 }
@@ -21,7 +21,7 @@ hr {
 }
 
 .parcours-body {
-    margin-top: 50px;
+    margin-top: 30px;
     display: flex;
 }
 .parcours-body .timeline {
@@ -89,14 +89,15 @@ hr {
 }
 .parcours-body .content h1 {
     font-family: Montserrat;
-    font-size: 18px;
+    font-size: 16px;
+    font-size: 16px;
     font-weight: 700;
     border-bottom: 2px solid black;
     margin-top: 20px;
 }
 .parcours-body .content h2 {
     font-family: Montserrat;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 600;
     margin-top: 20px;
     margin-bottom: 10px;

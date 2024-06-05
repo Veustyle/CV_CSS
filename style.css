@@ -14,13 +14,14 @@ html, body {
     display: flex;
     justify-content: start;
     font-family: Montserrat;
+    border: 1px solid black;
 }
 .bg-header {
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
-    height: 180px;
+    height: 160px;
     background-color: #111418;
     z-index: -1;
 }
